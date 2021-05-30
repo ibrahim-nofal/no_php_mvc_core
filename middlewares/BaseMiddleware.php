@@ -11,7 +11,7 @@
  *
  * @author jcc
  */
-namespace app\core\middlewares;
+namespace nofal\middlewares;
 abstract class BaseMiddleware {
     
     abstract public function execute();

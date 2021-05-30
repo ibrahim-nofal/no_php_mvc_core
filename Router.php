@@ -6,14 +6,14 @@
  * and open the template in the editor.
  */
 
-namespace app\core;
+namespace nofal;
 
 /**
  * Description of Router
  *
  * @author jcc
  */
-use app\core\exception\NotFoundException;
+use nofal\exception\NotFoundException;
 class Router {
     //put your code here
     
@@ -47,7 +47,7 @@ class Router {
         }
         
         if(is_array($callback)){
-            /**  @var \app\core\Controller $controller */           
+            /**  @var \nofal\Controller $controller */           
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

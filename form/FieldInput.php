@@ -6,14 +6,14 @@
  * and open the template in the editor.
  */
 
-namespace app\core\form;
+namespace nofal\form;
 
 /**
  * Description of Field
  *
  * @author jcc
  */
-use app\core\Model;
+use nofal\Model;
 class FieldInput extends BaseField{
     
     public const TYPE_TEXT = 'text';

@@ -6,5 +6,10 @@
             "email": "nofalebraheem@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4":{
+            "nofal\\":"./"
+        }
+    },
     "require": {}
 }

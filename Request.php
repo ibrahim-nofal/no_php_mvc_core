@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace app\core;
+namespace nofal;
 
 /**
  * Description of Request

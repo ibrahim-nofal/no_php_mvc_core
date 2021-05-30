@@ -11,8 +11,8 @@
  *
  * @author jcc
  */
-namespace app\core\form;
-use app\core\Model;
+namespace nofal\form;
+use nofal\Model;
 class Form {
     //put your code 
     //

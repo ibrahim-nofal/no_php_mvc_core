@@ -6,14 +6,14 @@
  * and open the template in the editor.
  */
 
-namespace app\core;
+namespace nofal;
 
 /**
  * Description of DBModel
  *
  * @author jcc
  */
-use app\core\Application;
+use nofal\Application;
 abstract class DBModel extends Model{
     
     

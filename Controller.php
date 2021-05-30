@@ -6,19 +6,19 @@
  * and open the template in the editor.
  */
 
-namespace app\core;
+namespace nofal;
 
 /**
  * Description of Controller
  *
  * @author jcc
  */
-use app\core\middlewares\BaseMiddleware;
+use nofal\middlewares\BaseMiddleware;
 class Controller {
        
     public string $layout = 'main';
     public string $action = '';
-    /** @var \app\core\middlewares\BaseMiddleware[] */ 
+    /** @var \nofal\middlewares\BaseMiddleware[] */ 
     protected array $middlewares = [];
     public function setLayout($layout){
         $this->layout = $layout;

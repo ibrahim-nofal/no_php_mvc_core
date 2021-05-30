@@ -6,15 +6,15 @@
  * and open the template in the editor.
  */
 
-namespace app\core\middlewares;
+namespace nofal\middlewares;
 
 /**
  * Description of AuthMiddleware
  *
  * @author jcc
  */
-use app\core\Application;
-use app\core\exception\ForbiddenException;
+use nofal\Application;
+use nofal\exception\ForbiddenException;
 class AuthMiddleware extends BaseMiddleware{
     //put your code here
     

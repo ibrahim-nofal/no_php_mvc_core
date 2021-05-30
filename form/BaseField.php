@@ -6,14 +6,14 @@
  * and open the template in the editor.
  */
 
-namespace app\core\form;
+namespace nofal\form;
 
 /**
  * Description of BaseField
  *
  * @author jcc
  */
-use app\core\Model;
+use nofal\Model;
 abstract class BaseField {
     //put your code here
     
